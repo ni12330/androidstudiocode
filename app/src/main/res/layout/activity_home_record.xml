@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="6"
+    android:background="#22242b"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_gravity="center"
+            android:layout_width="40dp"
+            android:layout_height="36dp"
+            android:background="@drawable/left"
+            android:layout_marginLeft="10dp"
+            />
+
+        <TextView
+            android:layout_gravity="center"
+            android:id="@+id/notifyText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="내 기록"
+            android:textSize="13pt"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="0.2"
+        >
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_centerInParent="true"
+            android:background="#7885CB"
+            android:layout_marginTop="10dp"
+            />
+    </LinearLayout>
+    <!--   <LinearLayout
+           android:layout_width="200dp"
+           android:layout_height="0dp"
+           android:layout_weight="0.5"
+           android:background="@drawable/round"
+           android:layout_marginLeft="20dp"
+           >
+
+            <EditText
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:background=""
+                />
+
+           </LinearLayout>-->
+
+</LinearLayout>

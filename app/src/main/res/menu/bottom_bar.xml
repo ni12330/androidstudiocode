@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menuitem_1"
+        android:icon="@drawable/home"
+        android:title="홈"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menuitem_2"
+        android:icon="@drawable/car_garage"
+        android:title="모두의차고"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menuitem_3"
+        android:icon="@drawable/board"
+        android:title="게시판"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menuitem_4"
+        android:icon="@drawable/notify2"
+        android:title="알림"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menuitem_5"
+        android:icon="@drawable/setting"
+        android:title="설정"
+        app:showAsAction="ifRoom"/>
+
+</menu>

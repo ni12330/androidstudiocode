@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#22242b"
+    android:orientation="vertical"
+    android:weightSum="10"
+    >
+    <LinearLayout
+        android:layout_weight="0.5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+    <LinearLayout
+        android:layout_weight="7"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+    <ListView
+        android:id="@+id/replyView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="0.6"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"></LinearLayout>
+    <LinearLayout
+        android:background="@drawable/round3"
+        android:layout_weight="1.3"
+        android:layout_width="390dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="6"
+        >
+    <LinearLayout
+        android:layout_marginTop="7dp"
+        android:layout_weight="4.6"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+        <EditText
+            android:id="@+id/insert_reply_content"
+            android:gravity="left"
+            android:layout_gravity="center"
+            android:layout_width="290dp"
+            android:layout_height="75dp"
+            android:background="@null"
+            android:hint="덧글 작성"
+            android:textColorHint="#c6c9d2"
+            android:textSize="15dp"
+            android:paddingTop="15dp"
+            android:paddingLeft="8dp"
+            android:textColor="#ffffff"
+            />
+    </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1.4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:id="@+id/reply_insert"
+                android:layout_gravity="center"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:background="@drawable/round10"
+                android:text="입력"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

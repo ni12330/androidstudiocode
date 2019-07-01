@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android_project.carInfo.CarSignUp"
+    android:orientation="vertical"
+    android:weightSum="8"
+    android:background="#22242b"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1.5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round5"
+        android:text="입력 완료"
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:textStyle="bold"
+        android:layout_gravity="right"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#434756"
+        android:orientation="vertical"
+        >
+
+    <Spinner
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#ffffff"
+        android:layout_gravity="center"
+        android:id="@+id/comp_id"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"></Spinner>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:background="#434756"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+    <Spinner
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#ffffff"
+        android:layout_gravity="center"
+        android:id="@+id/car_name"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"></Spinner>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        >
+    <EditText
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:id="@+id/car_nickname"
+        android:layout_width="350dp"
+        android:textColor="#ffffff"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:textColorHint="#8d92a5"
+        android:hint="차 닉네임" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        >
+        <EditText
+            android:id="@+id/car_mileage"
+            android:layout_marginTop="30dp"
+            android:textColorHint="#8d92a5"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:gravity="center"
+            android:hint="차 마일리지" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/takePhoto_btn"
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:text="사진찍기"
+            android:layout_gravity="right|center"
+            android:background="@drawable/save"
+            android:textColor="#ffffff"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            />
+        <Button
+            android:id="@+id/loadPhoto_btn"
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:text="갤러리"
+            android:layout_gravity="right|center"
+            android:background="@drawable/save"
+            android:textColor="#ffffff"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/mycar_image"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="left" />
+    </LinearLayout>
+
+</LinearLayout>

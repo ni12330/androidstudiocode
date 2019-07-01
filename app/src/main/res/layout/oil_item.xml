@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/round3"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.3"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/oil_comp"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/speech" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4">
+
+            <TextView
+                android:id="@+id/oil_name"
+                android:layout_width="230dp"
+                android:layout_height="50dp"
+                android:layout_alignParentTop="true"
+                android:singleLine="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:gravity="left|center"
+                android:paddingLeft="10dp"
+                android:text="Title"
+                android:textColor="#ffffff"
+                android:textSize="9pt" />
+
+            <ImageView
+                android:id="@+id/board_content3"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_below="@+id/oil_name"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_gravity="top"
+                android:layout_marginStart="34dp"
+                android:layout_marginLeft="54dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/eye" />
+
+            <TextView
+                android:id="@+id/oil_cost"
+                android:layout_width="130dp"
+                android:layout_height="28dp"
+                android:layout_below="@+id/oil_name"
+                android:layout_gravity="top"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_toEndOf="@+id/board_content3"
+                android:layout_toRightOf="@+id/board_content3"
+                android:layout_weight="1"
+                android:gravity="left|center"
+                android:text="Count"
+                android:textColor="#ffffff"
+                android:textSize="5pt" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
+

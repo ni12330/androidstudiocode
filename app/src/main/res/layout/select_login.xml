@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="6"
+    android:background="#22242b"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        ></LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
+
+        >
+      <!--  <ImageView
+            android:id="@+id/lock"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/login2"
+            android:layout_gravity="center"
+            android:layout_marginLeft="69dp"
+
+            />
+
+
+        <Button
+            android:id="@+id/goLogin"
+            android:layout_width="200dp"
+            android:layout_height="44dp"
+            android:text="'App name'으로 로그인하기"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/round"
+            android:textColor="#ffffff"
+            android:layout_alignLeft="@+id/lock"
+
+            />
+-->
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        >
+   <!--     <ImageView
+            android:id="@+id/talk"
+            android:layout_width="43dp"
+            android:layout_height="43dp"
+            android:background="@drawable/talk2"
+            android:layout_gravity="center"
+            android:layout_marginLeft="69dp"
+
+            />
+
+
+        <Button
+            android:id="@+id/goKakaoLogin"
+            android:layout_width="200dp"
+            android:layout_height="44dp"
+            android:text="카카오톡으로 로그인하기"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/round"
+            android:textColor="#ffffff"
+            android:layout_alignLeft="@+id/talk"
+
+            />-->
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        >
+     <!--   <ImageView
+            android:id="@+id/facebook"
+            android:layout_width="43dp"
+            android:layout_height="43dp"
+            android:background="@drawable/facebook"
+            android:layout_gravity="center"
+            android:layout_marginLeft="69dp"
+
+            />
+
+
+        <Button
+            android:id="@+id/goFacebookLogin"
+            android:layout_width="200dp"
+            android:layout_height="44dp"
+            android:text="페이스북으로 로그인하기"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/round"
+            android:textColor="#ffffff"
+            android:layout_alignLeft="@+id/facebook"
+
+            />-->
+
+    </RelativeLayout>
+
+</LinearLayout>
